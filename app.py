@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import html
 import sys
 from pathlib import Path
 
@@ -13,7 +14,25 @@ import streamlit as st
 from src import bc, catalogue, config, crm, erp, hubspot, installed_base, knowledge, llm, notify
 from src.graph import invoke_prep
 from src.models import AccountPrepResult
-from src.ui import inject, paginate, stepper
+from src.ui import (
+    PAGES,
+    PAGE_WHY,
+    ai_pane,
+    badge,
+    confidence_legend,
+    goto,
+    inject,
+    insight_cards,
+    origin_badge,
+    page_header,
+    paginate,
+    pipeline_stepper,
+    resolve_stage,
+    term,
+    value_strip,
+    walkthrough,
+    with_glossary,
+)
 
 st.set_page_config(
     page_title="D&S Account Prep · Cerebras",
@@ -29,7 +48,9 @@ def hero() -> None:
         f"""
 <div class="hero">
   <h1>Account Prep</h1>
-  <p>Outbound intelligence for Davis &amp; Shirtliff. Search any ERP customer, see invoices and what we already installed, draft human-gated outreach, then hand a <b>sizing ticket</b> to AI Product Sizing. Agents notify engineers before plants go quiet.</p>
+  <p>Outbound intelligence for Davis &amp; Shirtliff. The crew watches installed accounts,
+  drafts outreach for your approval, then hands a <b>sizing ticket</b> to AI Product Sizing.
+  Quotes always live at sizing.dayliff.com — drafts in this app never send.</p>
   <div class="pills">
     <span class="pill">{mode}</span>
     <span class="pill">{config.cerebras_model()}</span>
@@ -42,59 +63,35 @@ def hero() -> None:
     )
 
 
-def kpis() -> None:
-    c = crm.counts()
-    cols = st.columns(7)
-    for col, (n, lab) in zip(
-        cols,
-        [
-            (c["accounts"], "Accounts"),
-            (c["pending_drafts"], "Drafts"),
-            (c.get("alerts", 0), "Engineer alerts"),
-            (c.get("sizing_tickets", 0), "Sizing tickets"),
-            (c["approved_drafts"], "Approved"),
-            (c["open_tasks"], "Tasks"),
-            (c["stale"], "Stale"),
-        ],
-    ):
-        col.markdown(
-            f'<div class="kpi"><div class="n">{n}</div><div class="l">{lab}</div></div>',
-            unsafe_allow_html=True,
-        )
-
-
 def sidebar() -> str:
     with st.sidebar:
         st.markdown("### D&S Account Prep")
         st.caption("Cafe Compute · Nairobi")
-        nav = st.radio(
-            "Workspace",
-            [
-                "Command",
-                "Site 360",
-                "Alerts",
-                "Run prep",
-                "Drafts",
-                "Sizing tickets",
-                "Catalogue",
-                "Pitch",
-                "Governance",
-            ],
-            label_visibility="collapsed",
-        )
+        if "nav_radio" not in st.session_state:
+            st.session_state["nav_radio"] = "Command"
+        st.radio("Workspace", PAGES, label_visibility="collapsed", key="nav_radio")
+        if st.button("How this works ?", help="Plain-language walkthrough of the funnel"):
+            st.session_state["show_guide"] = True
+            st.session_state["nav_radio"] = "Command"
+            st.rerun()
         st.divider()
-        st.caption("Drafts never send. Quotes live in sizing.dayliff.com.")
+        st.markdown(
+            '<p class="trust">Drafts never send. Quotes live in sizing.dayliff.com.</p>',
+            unsafe_allow_html=True,
+        )
+        st.caption("Hover dotted terms in the main pane for a plain-English gloss.")
         if llm.has_llm():
             st.success("Cerebras connected")
         else:
             st.info("Demo mode — add CEREBRAS_API_KEY for live Qwen.")
-    return nav
+    return st.session_state["nav_radio"]
 
 
 def page_command() -> None:
+    value_strip(crm.counts())
     hero()
-    kpis()
-    stepper()
+    st.caption(PAGE_WHY["Command"])
+    walkthrough()
     accounts = crm.list_accounts()
     stale = crm.stale_accounts()
     tickets = [a for a in accounts if a.get("sizing")]
@@ -103,6 +100,7 @@ def page_command() -> None:
     a, b, c = st.columns(3)
     with a:
         st.subheader("Needs attention")
+        st.caption("Accounts gone quiet — start here if you are hunting a conversation.")
         slice_, _ = paginate(stale, key="stale", page_size=4)
         for acc in slice_:
             st.markdown(
@@ -114,6 +112,7 @@ def page_command() -> None:
             )
     with b:
         st.subheader("Ready to size")
+        st.caption("Prep already emitted a ticket. Next step is a lab report in sizing — not a BOQ here.")
         if not tickets:
             st.caption("Run prep — a lab-ask ticket appears here.")
         else:
@@ -123,12 +122,13 @@ def page_command() -> None:
                 tech = (sz.get("technology") or "ro").upper()
                 st.markdown(
                     f'<div class="acc-card"><h4>{acc["name"]}</h4>'
-                    f'<span class="badge badge-ro">{tech}</span>'
+                    f'{badge("ro", tech)}'
                     f'<div class="muted" style="margin-top:6px">Ask for a lab analysis, then open sizing.</div></div>',
                     unsafe_allow_html=True,
                 )
     with c:
         st.subheader("Engineer alerts")
+        st.caption("Proactive plays on installed plant. Open Alerts to scan the full base.")
         alerts = crm.list_notifications(status="open")[:4]
         if not alerts:
             st.caption("Scan installed base from Alerts to notify engineers.")
@@ -143,16 +143,16 @@ def page_command() -> None:
 
 
 def page_accounts() -> None:
-    st.header("Site 360")
-    st.caption(
-        "Search like sizing: Business Central Customer_Card (name / phone / customer no), then invoices, quotes, and what we already installed. "
-        "Demo history is loaded if BC credentials are not in this environment."
-    )
     q = st.text_input("Search customer", placeholder="Pharmakina, C-KE-11820, Ridgeview, +254…")
     country = st.selectbox(
-        "BC company",
+        "Country company in Business Central",
         ["KENYA", "UGANDA", "TANZANIA", "RWANDA", "ZAMBIA", "DRC"],
         index=0,
+        help="Which BC company (country database) to search on Customer_Card.",
+    )
+    st.markdown(
+        with_glossary("Search uses the same Customer_Card OData page as AI Product Sizing."),
+        unsafe_allow_html=True,
     )
     c1, c2, c3, c4 = st.columns(4)
     if c1.button("Search pipeline", type="primary"):
@@ -163,7 +163,7 @@ def page_accounts() -> None:
             st.warning("No Customer_Card hits. Check BC_URL / credentials, or use pipeline search (demo cards).")
     if c3.button("Search microservice", disabled=not config.microservice_url()):
         st.session_state["erp_hits"] = erp.search_erp_customers(q, country=country)
-    c4.caption("Customer_Card uses the same OData page as AI Product Sizing.")
+    c4.caption("Pipeline = this workspace. Customer_Card = live ERP when credentials are set.")
 
     local = st.session_state.get("local_hits")
     if q and local is None:
@@ -183,7 +183,7 @@ def page_accounts() -> None:
 
     bc_hits = st.session_state.get("bc_hits") or []
     if bc_hits:
-        st.subheader("Business Central Customer_Card")
+        st.markdown("#### " + with_glossary("Business Central Customer_Card"), unsafe_allow_html=True)
         page_b, _ = paginate(bc_hits, key="bccard", page_size=8)
         st.dataframe(page_b, use_container_width=True, hide_index=True)
         pick = st.selectbox(
@@ -284,28 +284,28 @@ def _render_360(account: dict) -> None:
         ["Card", "Installed", "Invoices", "Quotes", "Timeline", "Plays"]
     )
     with t_card:
-        st.json(
-            {
-                k: card.get(k)
-                for k in (
-                    "customer_no",
-                    "name",
-                    "phone",
-                    "email",
-                    "address",
-                    "city",
-                    "country",
-                    "price_group",
-                    "salesperson_code",
-                    "responsibility_center",
-                    "blocked",
-                    "type",
-                )
-            }
+        fields = (
+            ("customer_no", "ERP customer no"),
+            ("name", "Name"),
+            ("phone", "Phone"),
+            ("email", "Email"),
+            ("address", "Address"),
+            ("city", "City"),
+            ("country", "Country"),
+            ("price_group", "Price group"),
+            ("salesperson_code", "Salesperson"),
+            ("responsibility_center", "Responsibility centre"),
+            ("blocked", "Blocked"),
+            ("type", "Type"),
         )
+        rows = "".join(
+            f"<dt>{html.escape(lab)}</dt><dd>{html.escape(str(card.get(key))) if card.get(key) not in (None, '') else '—'}</dd>"
+            for key, lab in fields
+        )
+        st.markdown(f'<div class="insight-card"><dl class="dl-grid">{rows}</dl></div>', unsafe_allow_html=True)
         if st.button("Run prep on this account", type="primary"):
             st.session_state["prep_account_id"] = account["id"]
-            st.info("Switch to **Run prep** — this account will be pre-selected if you pick it in the dropdown.")
+            goto("Run prep")
     with t_inst:
         rows = site.get("installed_base") or []
         if not rows:
@@ -322,6 +322,7 @@ def _render_360(account: dict) -> None:
             page, html = paginate(rows, key="inv", page_size=8)
             st.markdown(html, unsafe_allow_html=True)
             st.dataframe(page, use_container_width=True, hide_index=True)
+            st.caption("Invoice amounts are internal. Customer drafts must not mention overdue AR.")
     with t_q:
         rows = site.get("quotes") or []
         st.dataframe(rows, use_container_width=True, hide_index=True) if rows else st.write("No open quotes.")
@@ -355,12 +356,21 @@ def _render_sizing(sz, key: str = "sz") -> None:
         return
     data = sz.model_dump() if hasattr(sz, "model_dump") else sz
     st.markdown("#### Sizing ticket")
+    st.markdown(
+        origin_badge("approved")
+        + " Handoff packet — lab and "
+        + term("BOQ")
+        + " still happen in "
+        + term("AI Product Sizing")
+        + ".",
+        unsafe_allow_html=True,
+    )
     t1, t2 = st.columns((1, 3))
-    t1.markdown(f'<span class="badge badge-ro">{data.get("technology","ro").upper()}</span>', unsafe_allow_html=True)
+    t1.markdown(badge("ro", (data.get("technology") or "ro").upper()), unsafe_allow_html=True)
     t2.caption(data.get("option_framing") or "")
     st.markdown("**Lab ask (engineer / customer)**")
     st.write(" · ".join(data.get("lab_ask") or []))
-    st.code(data.get("engineer_prompt") or "", language=None)
+    ai_pane(data.get("engineer_prompt") or "—", heading="AI prompt for the engineer")
     b1, b2, b3 = st.columns(3)
     if data.get("sizing_url"):
         b1.link_button("Open RO/UF bench", data["sizing_url"])
@@ -381,23 +391,38 @@ def _render_result(result: AccountPrepResult, account: dict) -> None:
     st.success(f"Prep complete for {account.get('name')} · {result.ran_at}")
     if result.research:
         r = result.research
-        st.markdown("#### Research")
-        m1, m2 = st.columns(2)
-        m1.markdown(f"**Firmographics**  \n{r.firmographics}")
-        m2.markdown(f"**Technographics**  \n{r.technographics}")
-        st.markdown("**Buying committee:** " + ", ".join(r.buying_committee or ["—"]))
-        st.markdown("**Signals:** " + ", ".join(r.signals or ["—"]))
-        st.caption(f"Confidence {r.confidence:.0%}")
+        st.markdown("#### Research " + origin_badge("pending_approval"), unsafe_allow_html=True)
+        insight_cards(
+            [
+                ("🏢", "Firmographics", "Who they are and where they buy", r.firmographics or "—"),
+                ("⚙️", "Technographics", "Plant and process on site", r.technographics or "—"),
+                (
+                    "👥",
+                    "Buying committee",
+                    "People the crew thinks you should talk to",
+                    ", ".join(r.buying_committee or ["—"]),
+                ),
+                (
+                    "📡",
+                    "Signals",
+                    "Why this account is in the funnel now",
+                    ", ".join(r.signals or ["—"]),
+                ),
+            ]
+        )
+        st.markdown(f"**Confidence {r.confidence:.0%}** — how much the crew trusts this brief, not a close rate.")
+        confidence_legend(expanded=bool(r.low_confidence_flags) or r.confidence < 0.5)
         if r.low_confidence_flags:
             st.warning("Flag for rep: " + "; ".join(r.low_confidence_flags))
         if r.evidence:
-            ev, _ = paginate(r.evidence, key="ev", page_size=5)
-            st.dataframe([e.model_dump() for e in ev], use_container_width=True, hide_index=True)
+            with st.expander("Evidence the crew cited"):
+                ev, _ = paginate(r.evidence, key="ev", page_size=5)
+                st.dataframe([e.model_dump() for e in ev], use_container_width=True, hide_index=True)
     if result.pains:
-        st.markdown("#### Pains & use-cases")
+        st.markdown("#### Pains & use-cases " + origin_badge("pending_approval"), unsafe_allow_html=True)
         for p in result.pains:
             st.markdown(
-                f'<span class="badge badge-{p.fit}">{p.fit} fit</span> **{p.name}**',
+                f'{badge(p.fit if p.fit in ("high", "medium", "low") else "low", p.fit + " fit")} **{p.name}**',
                 unsafe_allow_html=True,
             )
             st.caption(p.recommended_angle)
@@ -405,7 +430,15 @@ def _render_result(result: AccountPrepResult, account: dict) -> None:
                 st.write("Evidence: " + " · ".join(p.evidence))
     if result.products:
         st.markdown("#### Hypothesized catalogue (internal)")
-        st.caption("Shown to the SDR as a starting family — the BOQ is created in sizing after the lab.")
+        st.markdown(
+            origin_badge("pending_approval")
+            + " Starting family for the "
+            + term("SDR")
+            + " — the "
+            + term("BOQ")
+            + " is created in sizing after the lab.",
+            unsafe_allow_html=True,
+        )
         st.dataframe(
             [{k: v for k, v in p.model_dump().items() if k != "unit_price"} for p in result.products],
             use_container_width=True,
@@ -426,9 +459,9 @@ def _render_result(result: AccountPrepResult, account: dict) -> None:
         st.markdown("#### Outreach queued for approval")
         for d in result.drafts:
             st.markdown(f"**{d.channel}** · {d.subject or '—'}")
-            st.markdown(f'<div class="draft-box">{d.body}</div>', unsafe_allow_html=True)
+            ai_pane(d.body, heading="AI draft — will not send")
     if result.hygiene:
-        st.markdown("#### Hygiene")
+        st.markdown("#### Hygiene " + origin_badge("pending_approval"), unsafe_allow_html=True)
         st.write(result.hygiene.next_step)
         st.caption("Requires rep confirm: " + ", ".join(result.hygiene.requires_rep_confirm))
     with st.expander("Audit trail"):
@@ -436,8 +469,6 @@ def _render_result(result: AccountPrepResult, account: dict) -> None:
 
 
 def page_run() -> None:
-    st.header("Run account prep")
-    stepper()
     accounts = crm.list_accounts()
     labels = {f"{a['name']} ({a.get('customer_no') or a['id']})": a["id"] for a in accounts}
     keys = list(labels.keys())
@@ -480,8 +511,6 @@ def page_run() -> None:
 
 
 def page_drafts() -> None:
-    st.header("Human-in-the-loop drafts")
-    st.caption("Edit tone if needed. Approve does not send — it marks the copy as SDR-ready.")
     status = st.radio("Queue", ["pending_approval", "approved", "rejected"], horizontal=True)
     drafts = crm.list_drafts(status=status)
     if not drafts:
@@ -491,9 +520,19 @@ def page_drafts() -> None:
     st.markdown(html, unsafe_allow_html=True)
     for d in page:
         with st.container(border=True):
+            rail = {"approved": "ok", "rejected": "no"}.get(d.get("status") or "", "ai")
+            st.markdown(f'<div class="rail rail-{rail}"></div>', unsafe_allow_html=True)
             st.markdown(
-                f"**{d.get('account_name') or d.get('account_id')}** · `{d.get('channel')}`"
+                f"**{d.get('account_name') or d.get('account_id')}** · `{d.get('channel')}` "
+                + origin_badge(d.get("status")),
+                unsafe_allow_html=True,
             )
+            if d.get("status") == "approved":
+                st.caption("Verified by a human. Still not sent — copy it out to your mailer if you are ready.")
+            elif d.get("status") == "rejected":
+                st.caption("Rejected. The crew will not use this copy.")
+            else:
+                st.caption("AI draft. Approve marks it SDR-ready; it does not send.")
             subject = st.text_input("Subject", d.get("subject") or "", key=f"sub-{d['id']}")
             body = st.text_area("Body", d.get("body") or "", height=160, key=f"body-{d['id']}")
             a, b, c, e = st.columns(4)
@@ -514,8 +553,6 @@ def page_drafts() -> None:
 
 
 def page_tickets() -> None:
-    st.header("Sizing tickets")
-    st.caption("Handoff packets for the engineer. Lab PDF still has to be uploaded in AI Product Sizing.")
     accounts = [a for a in crm.list_accounts() if a.get("sizing")]
     if not accounts:
         st.info("No tickets yet. Run prep — every brief now emits a sizing ticket.")
@@ -529,8 +566,6 @@ def page_tickets() -> None:
 
 
 def page_catalogue() -> None:
-    st.header("Dayliff catalogue")
-    st.caption("Curated extract the mapper uses. Same families as water-treatment recommendations — not the live quote.")
     fams = catalogue.families()
     counts = {f: sum(1 for r in catalogue.load_catalogue() if r.get("family") == f) for f in fams}
     fam = st.selectbox("Family", ["all"] + [f"{f} ({counts[f]})" for f in fams])
@@ -553,7 +588,6 @@ def page_catalogue() -> None:
 
 
 def page_gov() -> None:
-    st.header("Governance")
     st.markdown(
         f"""
 | Control | Value |
@@ -569,9 +603,12 @@ def page_gov() -> None:
         """
     )
     st.markdown(
-        "**Write policy.** Local activity, tasks, alerts, and drafts: allowed. HubSpot notes: opt-in. "
-        "Outbound email/LinkedIn still needs human approval. Deal stage / forecast: rep only. "
-        "Quotes and BOQs: AI Product Sizing only. Invoice amounts stay internal — never in customer drafts."
+        with_glossary(
+            "**Write policy.** Local activity, tasks, alerts, and drafts: allowed. HubSpot notes: opt-in. "
+            "Outbound email/LinkedIn still needs human approval. Deal stage / forecast: rep only. "
+            "Quotes and BOQs: AI Product Sizing only. Invoice amounts stay internal — never in customer drafts."
+        ),
+        unsafe_allow_html=True,
     )
     logs = crm.list_audit(200)
     page, html = paginate(logs, key="audit", page_size=15)
@@ -586,11 +623,6 @@ def page_gov() -> None:
 
 
 def page_alerts() -> None:
-    st.header("Proactive engineer alerts")
-    st.caption(
-        "The crew scans installed plant age, open AR, rotting quotes, and aftermarket windows — then notifies the sales engineer. "
-        "Customer-facing drafts never mention overdue invoices."
-    )
     a, b = st.columns(2)
     if a.button("Scan all installed-base accounts", type="primary"):
         with st.spinner("Reading Customer_Card history + fixtures…"):
@@ -606,7 +638,10 @@ def page_alerts() -> None:
     st.markdown(html, unsafe_allow_html=True)
     for n in page:
         with st.container(border=True):
-            st.markdown(f"**{n.get('title')}**")
+            st.markdown(
+                f'{badge("ai", "AI flagged")} {with_glossary(html.escape(n.get("title") or ""))}',
+                unsafe_allow_html=True,
+            )
             st.caption(
                 f"{n.get('severity')} · {n.get('play')} · {n.get('account_name')} `{n.get('customer_no') or ''}` · {n.get('engineer')}"
             )
@@ -614,7 +649,7 @@ def page_alerts() -> None:
             x, y, z = st.columns(3)
             if x.button("Open 360", key=f"z-{n['id']}"):
                 st.session_state["focus_account"] = n.get("account_id")
-                st.info("Open **Site 360** in the sidebar.")
+                goto("Site 360")
             if y.button("Notify by email", key=f"n-{n['id']}"):
                 st.write(
                     notify.send_play_email(
@@ -633,11 +668,17 @@ def page_alerts() -> None:
 
 
 def page_pitch() -> None:
-    st.header("Cafe Compute pitch (8 minutes)")
+    st.markdown(
+        with_glossary(
+            "**One line.** D&S already knows the water. This agent remembers the *customer* — "
+            "what we installed, what they still owe, what is due for service — and puts a sizing ticket "
+            "in the engineer’s hand before the plant goes quiet."
+        ),
+        unsafe_allow_html=True,
+    )
+    value_strip(crm.counts())
     st.markdown(
         """
-**One line.** D&S already knows the water. This agent remembers the *customer* — what we installed, what they still owe, what is due for service — and puts a sizing ticket in the engineer’s hand before the plant goes quiet.
-
 ### Clock
 1. **0:00 Problem** — SDRs research in WhatsApp and Excel. Installed sites get a cold “new RO” email. Aftermarket revenue sleeps until the customer shouts.
 2. **0:45 Show Command** — KPIs, pipeline, alerts. “This is not a chatbot. It is a crew with gates.”
@@ -645,27 +686,43 @@ def page_pitch() -> None:
 4. **3:00 Run prep** — LangGraph on Cerebras. Drafts talk *service*, not greenfield. Sizing ticket: Ph. Eur. lab ask, ERP customer no, no prices.
 5. **4:30 Alerts** — Scan installed base. Membrane window on Pharmakina, ageing Nakuru plant, Ridgeview chlorine. Click notify.
 6. **6:00 Tandem** — Open sizing.dayliff.com. “Lab PDF → Economy / Standard / Premium → BC quote. This app never quotes.”
-7. **7:00 Value** — Close with the numbers below. Ask for a 30-day SDR pilot, draft-only.
-
-### Business value (say out loud)
-| Lever | What changes | Conservative year-1 picture |
-|---|---|---|
-| Prep time | 45–90 min of research → ~8 min review | 6 SDRs × 6 hrs/week × 48 weeks |
-| Aftermarket | Membrane / media / UV plays on installed plants | One extra spares job per engineer per month |
-| Quote quality | No recycled 2019 prices; lab-first sizing | Fewer giveaways and fewer “wrong plant” FATs |
-| Collections | AR visible before a new BOQ | Credit control in the same screen as the chase |
-| Meetings | Personalized, evidence-backed outreach | Higher reply rate vs spray-and-pray |
-
-**Pilot ask.** 1 country, 1 salesperson code, draft-only for 4 weeks. Measure: acceptance rate of drafts, alerts acted on, lab reports into sizing, quotes created on agent-prepped accounts.
-
-**What we will not claim.** We do not auto-send email. We do not invent invoices when BC is offline (fixtures are labelled). We do not replace the engineer.
+7. **7:00 Value** — Close with the numbers above. Ask for a 30-day SDR pilot, draft-only.
         """
+    )
+    st.markdown("### Business value (say out loud)")
+    levers = [
+        ("Prep time", "45–90 min of research → ~8 min review", "6 SDRs × 6 hrs/week × 48 weeks"),
+        ("Aftermarket", "Membrane / media / UV plays on installed plants", "One extra spares job per engineer per month"),
+        ("Quote quality", "No recycled 2019 prices; lab-first sizing", "Fewer giveaways and fewer “wrong plant” FATs"),
+        ("Collections", "AR visible before a new BOQ", "Credit control in the same screen as the chase"),
+        ("Meetings", "Personalized, evidence-backed outreach", "Higher reply rate vs spray-and-pray"),
+    ]
+    cols = st.columns(len(levers))
+    for col, (title, change, picture) in zip(cols, levers):
+        col.markdown(
+            f'<div class="kpi"><div class="l">{title}</div>'
+            f'<div class="c" style="margin-top:8px"><b>{change}</b><br>{picture}</div></div>',
+            unsafe_allow_html=True,
+        )
+    st.markdown(
+        with_glossary(
+            "**Pilot ask.** 1 country, 1 salesperson code, draft-only for 4 weeks. Measure: acceptance rate of drafts, "
+            "alerts acted on, lab reports into sizing, quotes created on agent-prepped accounts."
+        ),
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        "**What we will not claim.** We do not auto-send email. We do not invent invoices when BC is offline "
+        "(fixtures are labelled). We do not replace the engineer."
     )
 
 
 def main() -> None:
     inject()
     nav = sidebar()
+    pipeline_stepper(resolve_stage(nav))
+    if nav != "Command":
+        page_header(nav, PAGE_WHY.get(nav, ""))
     pages = {
         "Command": page_command,
         "Site 360": page_accounts,
