@@ -1,0 +1,3202 @@
+[
+  {
+    "item_no": "CD60D/1",
+    "description": "CD60D DOSING PUMP INSTALLATION KIT",
+    "unit_price": 20000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "CD11P",
+    "description": "DAYLIFF CHEMDOSE CD11P DOSING PUMP",
+    "unit_price": 50000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "CD60D",
+    "description": "DAYLIFF CHEMDOSE CD60D DOSING PUMP",
+    "unit_price": 105000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "CH-02F",
+    "description": "DAYLIFF CHLORINE 65 TABLETS-200 45KG PACK",
+    "unit_price": 15800,
+    "unit_cost": 12682,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "CH-02C",
+    "description": "DAYLIFF CHLORINE 65-10KGS",
+    "unit_price": 4138,
+    "unit_cost": 3558,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "CH-02",
+    "description": "DAYLIFF CHLORINE 65-1KG",
+    "unit_price": 620,
+    "unit_cost": 339,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "CH-02B",
+    "description": "DAYLIFF CHLORINE 65-20KGS",
+    "unit_price": 7069,
+    "unit_cost": 4099,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "CH-02BH",
+    "description": "DAYLIFF CHLORINE 65-25KGS HTH",
+    "unit_price": 7455,
+    "unit_cost": 1111,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "CH-02E",
+    "description": "DAYLIFF CHLORINE 65-45KGS",
+    "unit_price": 15259,
+    "unit_cost": 8993,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "CH-02A",
+    "description": "DAYLIFF CHLORINE 65-5KGS",
+    "unit_price": 2112,
+    "unit_cost": 1264,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "AML200",
+    "description": "DAYLIFF SEKO AML200 DOSING PUMP",
+    "unit_price": 70000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "AMM200",
+    "description": "DAYLIFF SEKO DPT DOSING PUMP",
+    "unit_price": 98000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "BT4B0708PPT",
+    "description": "DOSING PUMP BT4B0708PPT2000UA010000",
+    "unit_price": 0,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "95730683",
+    "description": "DOSING PUMP HOSE PVC 2M ROLL 4/6",
+    "unit_price": 2000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "PAC-DP",
+    "description": "DOSING PUMP PH, PAC, PAM",
+    "unit_price": 0,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-GPF5",
+    "description": "GENEFLOC GPF FLOCULANT -5KGS",
+    "unit_price": 6900,
+    "unit_cost": 3498,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-38B",
+    "description": "GENESOL 38 ACID CLEANER-5KGS",
+    "unit_price": 9900,
+    "unit_cost": 4212,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-80",
+    "description": "GENESOL 80 BIOFILM REMOVAL AGENT 25KG",
+    "unit_price": 26800,
+    "unit_cost": 13973,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-38",
+    "description": "GENESOL GEN38 ACID CLEANER-25KGS",
+    "unit_price": 42800,
+    "unit_cost": 18090,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-BS",
+    "description": "GENESYS BS ANTISCALANT -25KGS",
+    "unit_price": 29000,
+    "unit_cost": 12582,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-20",
+    "description": "GENESYS GEN20 PRESERVER -5KG",
+    "unit_price": 42800,
+    "unit_cost": 14459,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-30",
+    "description": "GENESYS GEN30 BIOCIDE -25KGS",
+    "unit_price": 90000,
+    "unit_cost": 46486,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-32",
+    "description": "GENESYS GEN32 PRESERVER -25KGS",
+    "unit_price": 111000,
+    "unit_cost": 30149,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-37",
+    "description": "GENESYS GEN37 STRONG ACID CLEANER -25KGS",
+    "unit_price": 44900,
+    "unit_cost": 23828,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-703",
+    "description": "GENESYS GEN703 ALKALINE CLEANER -25KGS",
+    "unit_price": 57000,
+    "unit_cost": 23558,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-704B",
+    "description": "GENESYS GEN704 ALKALINE CLEANER-10KGS",
+    "unit_price": 21400,
+    "unit_cost": 10368,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-704",
+    "description": "GENESYS GEN704 ALKALINE CLEANER-25KGS",
+    "unit_price": 51000,
+    "unit_cost": 22208,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-GPF20",
+    "description": "GENESYS GPF FLOCULANT-20KGS",
+    "unit_price": 25200,
+    "unit_cost": 9590.6,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-GPF",
+    "description": "GENESYS GPF FLOCULANT-25KGS",
+    "unit_price": 31500,
+    "unit_cost": 14976,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-LF5",
+    "description": "GENESYS LF ANTISCALANT -5KGS",
+    "unit_price": 7000,
+    "unit_cost": 3078,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-PWF",
+    "description": "GENESYS PWF FLOCULANT-25KGS",
+    "unit_price": 28400,
+    "unit_cost": 14040,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-RC",
+    "description": "GENESYS RC ANTISCALANT RECYCLE SYSTEMS-25KGS",
+    "unit_price": 19500,
+    "unit_cost": 8316,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-SI5",
+    "description": "GENESYS SI ANTISCALANT -5KGS",
+    "unit_price": 7800,
+    "unit_cost": 3229,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-SI",
+    "description": "GENESYS SI ANTISCALANT SILICA-25KGS",
+    "unit_price": 34400,
+    "unit_cost": 14580,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-SPEC",
+    "description": "GENESYS SPECTRAGUARD 111 ANTISCALANT 240KG",
+    "unit_price": 1700000,
+    "unit_cost": 772200,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-SPEC 25",
+    "description": "GENESYS SPECTRAGUARD 111 ANTISCALANT 25KG",
+    "unit_price": 0,
+    "unit_cost": 0,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GEN-SPEC 375",
+    "description": "GENESYS SPECTRAGUARD 111 ANTISCALANT 375KG",
+    "unit_price": 0,
+    "unit_cost": 0,
+    "posting_group": "CAT18",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "DDC15-4",
+    "description": "GRUNDFOS DDC 15-4 DOSING PUMP",
+    "unit_price": 232000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "DDC06-10",
+    "description": "GRUNDFOS DDC 6-10 DOSING PUMP",
+    "unit_price": 165000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "DDE15-4",
+    "description": "GRUNDFOS DDE 15-4 DOSING PUMP",
+    "unit_price": 105000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "DDE06-10",
+    "description": "GRUNDFOS DDE 6-10 DOSING PUMP",
+    "unit_price": 82000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "99206003",
+    "description": "GRUNDFOS DMX 115-3B DOSING PUMP",
+    "unit_price": 165685,
+    "unit_cost": 165685,
+    "posting_group": "CAT04",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "96293618",
+    "description": "GRUNDFOS DMX 460-6 DOSING PUMP",
+    "unit_price": 95349,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "M221-115",
+    "description": "GRUNDFOS DMX M221-115 DOSING PUMP",
+    "unit_price": 330000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "M221-50",
+    "description": "GRUNDFOS DMX M221-50 DOSING PUMP",
+    "unit_price": 223000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GSS005PR1",
+    "description": "GSS005PR1 0.025KW, 1PH DOSING PUMP",
+    "unit_price": 17842,
+    "unit_cost": 17842,
+    "posting_group": "CAT04",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GSS025PR1",
+    "description": "GSS025PR1 0.025KW, 1PH DOSING PUMP",
+    "unit_price": 17841,
+    "unit_cost": 17841,
+    "posting_group": "CAT04",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "GSS055TR2/1",
+    "description": "GSS055TR2 DOSING PUMP INSTALLATION KIT",
+    "unit_price": 11629.5,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "MX-1250",
+    "description": "MIXTRON MX 1.250.P022 DOSING PUMP",
+    "unit_price": 107000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "MX-1300",
+    "description": "MIXTRON MX 1.300.P022.00 DOSING PUMP",
+    "unit_price": 112000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "TPG803NHH20M0",
+    "description": "SEKO DOSING PUMP - TEKNA FOR DOSING SULPHURIC ACID 98% & 50% CAUSTIC",
+    "unit_price": 109588.5,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "96108842",
+    "description": "TECHNOPOOL PH/RX 1PH TWIN PERISTALTIC DOSING PUMP",
+    "unit_price": 149796,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "WG50D",
+    "description": "WG50 C/W DOSING PUMPS",
+    "unit_price": 750000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "chemicals"
+  },
+  {
+    "item_no": "UV1/3",
+    "description": "BALLAST/ADAPTOR 16W",
+    "unit_price": 5500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV2/3",
+    "description": "BALLAST/ADAPTOR 25W",
+    "unit_price": 6100,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV3/3",
+    "description": "BALLAST/ADAPTOR 55W",
+    "unit_price": 6600,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV500/1",
+    "description": "DAYLIFF 6-SOSAFE PURIFIER",
+    "unit_price": 93000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV1000",
+    "description": "DAYLIFF UV 1000 PURIFIER",
+    "unit_price": 102000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV5",
+    "description": "DAYLIFF UV 2000 PURIFIER",
+    "unit_price": 105000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV2000",
+    "description": "DAYLIFF UV 2700 PURIFIER",
+    "unit_price": 120000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV0500",
+    "description": "DAYLIFF UV 500 PURIFIER",
+    "unit_price": 94000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UVDISF",
+    "description": "DAYLIFF UV DISINFECTION SYSTEM",
+    "unit_price": 50000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV1",
+    "description": "DAYLIFF UV PURIFIER 16W 0.5M3/HR",
+    "unit_price": 8400,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV2",
+    "description": "DAYLIFF UV PURIFIER 25W 1M3/HR",
+    "unit_price": 15000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV3",
+    "description": "DAYLIFF UV PURIFIER 55W 2.7M3/HR",
+    "unit_price": 19000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV3Y",
+    "description": "DAYLIFF UV PURIFIER 55W 2.7M3/HR",
+    "unit_price": 19000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV440/D",
+    "description": "SITA CONTROLLER 440LCD",
+    "unit_price": 80000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV550/B",
+    "description": "SITA CONTROLLER 550LCD",
+    "unit_price": 140000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV802/A",
+    "description": "SITA CONTROLLER 80-2LCD",
+    "unit_price": 166000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV803/A",
+    "description": "SITA CONTROLLER 80-3 RACK LCD",
+    "unit_price": 515000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV 300",
+    "description": "SITA UV 0.3M3/HR PURIFIER",
+    "unit_price": 10430,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV403",
+    "description": "SITA UV403 0.6M3/HR PURIFIER",
+    "unit_price": 77000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV405",
+    "description": "SITA UV405 1.2M3/HR PURIFIER",
+    "unit_price": 94000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV440",
+    "description": "SITA UV440 3.6M3/HR LCD PURIFIER",
+    "unit_price": 266000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV550",
+    "description": "SITA UV550 6M3/HR LCD PURIFIER",
+    "unit_price": 412000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV80B",
+    "description": "SITA UV80-2 12M3/HR LCD PURIFIER",
+    "unit_price": 568000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV80C",
+    "description": "SITA UV80-3 20M3/HR LCD PURIFIER",
+    "unit_price": 850000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV6/1",
+    "description": "UV 1000 QUARTZ SLEEVE",
+    "unit_price": 1,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV1/1",
+    "description": "UV 16W LAMP",
+    "unit_price": 5700,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV1/4",
+    "description": "UV 16W O-RING SET",
+    "unit_price": 230,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV1/2",
+    "description": "UV 16W SLEEVE",
+    "unit_price": 1100,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV2/1",
+    "description": "UV 25W LAMP",
+    "unit_price": 7400,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV2/4",
+    "description": "UV 25W O-RING SET",
+    "unit_price": 230,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV2/2",
+    "description": "UV 25W SLEEVE",
+    "unit_price": 5300,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV3/1",
+    "description": "UV 55W LAMP",
+    "unit_price": 7500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV3/4",
+    "description": "UV 55W O-RING SET",
+    "unit_price": 230,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "UV3/2",
+    "description": "UV 55W SLEEVE",
+    "unit_price": 5000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "disinfection"
+  },
+  {
+    "item_no": "PXDC-600/4",
+    "description": "BRASS FITTING 2\" 3/4 VALVE SIDE TO 63MM PVC PIPE",
+    "unit_price": 60,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "MD-9A",
+    "description": "CERTIKIN GRADE 1 GLASS MEDIA",
+    "unit_price": 6500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "MD-9A/1",
+    "description": "CERTIKIN GRADE 1 GLASS MEDIA",
+    "unit_price": 6500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "MD-9B",
+    "description": "CERTIKIN GRADE 2 GLASS MEDIA",
+    "unit_price": 6500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "MD-9B/1",
+    "description": "CERTIKIN GRADE 2 GLASS MEDIA 0.8-2.5MM",
+    "unit_price": 6500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "MD-9C",
+    "description": "CERTIKIN GRADE 3 GLASS MEDIA",
+    "unit_price": 6500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "MD-9C/1",
+    "description": "CERTIKIN GRADE 3 GLASS MEDIA 2.0-4.0MM",
+    "unit_price": 6500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "PXD200",
+    "description": "DAYLIFF PXD200 AUTOMATIC HIGH PRESSURE FILTER",
+    "unit_price": 70000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "PXD200B",
+    "description": "DAYLIFF PXD200 MANUAL HIGH PRESSURE FILTER",
+    "unit_price": 32800,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "PXD240",
+    "description": "DAYLIFF PXD240 AUTOMATIC HIGH PRESSURE FILTER",
+    "unit_price": 75000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "PXD240B",
+    "description": "DAYLIFF PXD240 MANUAL HIGH PRESSURE FILTER",
+    "unit_price": 37400,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "PXD350",
+    "description": "DAYLIFF PXD350 AUTOMATIC HIGH PRESSURE FILTER",
+    "unit_price": 81000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "PXD350B",
+    "description": "DAYLIFF PXD350 MANUAL HIGH PRESSURE FILTER",
+    "unit_price": 46300,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "PXD400",
+    "description": "DAYLIFF PXD400 AUTOMATIC HIGH PRESSURE FILTER",
+    "unit_price": 130000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "SPFIL-000006",
+    "description": "DAYLIFF PXD400 AUTOMATIC HIGH PRESSURE FILTER C/W RXFV-13",
+    "unit_price": 130000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "PXD400B",
+    "description": "DAYLIFF PXD400 MANUAL HIGH PRESSURE FILTER",
+    "unit_price": 68000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "PXD600",
+    "description": "DAYLIFF PXD600 AUTOMATIC HIGH PRESSURE FILTER",
+    "unit_price": 225000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "SPFIL-000013",
+    "description": "DAYLIFF PXD600 HIGH PRESSURE FILTER  |  RXFV-13",
+    "unit_price": 116000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "PXD600B",
+    "description": "DAYLIFF PXD600 MANUAL HIGH PRESSURE FILTER",
+    "unit_price": 200000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "PXD900",
+    "description": "DAYLIFF PXD900 AUTOMATIC HIGH PRESSURE FILTER",
+    "unit_price": 550000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "PXD900B",
+    "description": "DAYLIFF PXD900 MANUAL HIGH PRESSURE FILTER",
+    "unit_price": 350000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "PXDC-600/3",
+    "description": "DRAIN LINE FLOW CONTROL 100GPM",
+    "unit_price": 230,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "PXDC-600/1",
+    "description": "FILTER VALVE V363",
+    "unit_price": 3600,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "SPFIL-000005",
+    "description": "PENTAIR PXD200 MANUAL HIGH PRESSURE FILTER C/W P200 LOCAL",
+    "unit_price": 68965,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "SPFIL-000003",
+    "description": "PENTAIR PXD350 MANUAL HIGH PRESSURE FILTER C/W P350",
+    "unit_price": 80500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "SPFIL-000004",
+    "description": "PENTAIR PXD400 AUTOMATIC HIGH PRESSURE FILTER C/W SF400 LOCAL",
+    "unit_price": 182000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "PXDC-600/2",
+    "description": "SIATA SFE CONTROLLER FOR V363",
+    "unit_price": 4500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "PXDC-600/0",
+    "description": "V363-SFE VALVE & CONTROLLER KIT COMPLETE",
+    "unit_price": 22900,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "pretreatment"
+  },
+  {
+    "item_no": "DRO-11/3",
+    "description": "BAG FILTER KNOB",
+    "unit_price": 1000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-11/4",
+    "description": "BAG FILTER SCREW",
+    "unit_price": 500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-11/6",
+    "description": "BASKET FILTER BAG",
+    "unit_price": 95000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-03A2C",
+    "description": "BBRASS LIQUID SOLENOID VALVE 12V 3/4'' 0.3-12BAR 6W (DFQ-20)",
+    "unit_price": 0,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-03B2",
+    "description": "BRASS SOLENOID VALVE 1\" AC 220V",
+    "unit_price": 22400,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-03A2B",
+    "description": "BRASS SOLENOID VALVE 3/4\" 12VDC",
+    "unit_price": 2576.32,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-03A2",
+    "description": "BRASS SOLENOID VALVE 3/4\" AC 220V",
+    "unit_price": 14600,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-03D2",
+    "description": "BRASS SOLENOID VALVE AC 1 1/2\" 220V",
+    "unit_price": 34500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "80741",
+    "description": "BW 4040 REVERSE OSMOSIS MEMBRANE ELEMENTS",
+    "unit_price": 11883.5,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-4PV4B",
+    "description": "CODELINE 300psi 4*2 PRESSURE VESSEL",
+    "unit_price": 71000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-8PV4C",
+    "description": "CODELINE 450psi 8*2 PRESSURE VESSEL",
+    "unit_price": 214000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-8PV4A",
+    "description": "CODELINE 450psi 8*4 PRESSURE VESSEL",
+    "unit_price": 305000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-04/02",
+    "description": "CONDUCTIVITY CELL RO CONTROLLER 0-2000\u00b5S/cm",
+    "unit_price": 3000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-04/01",
+    "description": "CONDUCTIVITY CELL RO CONTROLLER 0-200\u00b5S/cm",
+    "unit_price": 3800,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-10B/1",
+    "description": "COVER FOR MICRO FILTER - THREADED TYPE",
+    "unit_price": 12000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-10B/2",
+    "description": "COVER FOR PVC BAG FILTER - BOLT TYPE",
+    "unit_price": 57000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-11/5",
+    "description": "COVER FOR PVC BAG FILTER - THREAD TYPE",
+    "unit_price": 13500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO8-04/1",
+    "description": "DAYLIFF 8RO4-5 FRAME",
+    "unit_price": 40000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000091",
+    "description": "DAYLIFF BRO 0.5M3/HR C/W WUF",
+    "unit_price": 435000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "BRO4/0.25",
+    "description": "DAYLIFF BRO4 0.25M3/HR TDS500",
+    "unit_price": 242000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "BRO4/0.5",
+    "description": "DAYLIFF BRO4 0.5M3/HR TDS500",
+    "unit_price": 296000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "BRO4/1",
+    "description": "DAYLIFF BRO4 1M3/HR TDS500",
+    "unit_price": 415000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000010",
+    "description": "DAYLIFF RO",
+    "unit_price": 3220000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01B",
+    "description": "DAYLIFF RO 0.25M3/HR ECONOMY TDS1000",
+    "unit_price": 565000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000057",
+    "description": "DAYLIFF RO 0.25M3/HR ECONOMY TDS1000 | SOLAR RO",
+    "unit_price": 1360000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000077",
+    "description": "DAYLIFF RO 0.25M3/HR TDS15000 | 8X2 VESSEL | SW30HRLE-400 | SOLAR RO",
+    "unit_price": 3200000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-05/T",
+    "description": "DAYLIFF RO 0.25M3/HR TDS2000",
+    "unit_price": 1386000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-M/0.25",
+    "description": "DAYLIFF RO 0.25M3/HR TDS5000",
+    "unit_price": 1918000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000100",
+    "description": "DAYLIFF RO 0.25M3/HR TDS5000 SOLAR RO",
+    "unit_price": 2220000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000015",
+    "description": "DAYLIFF RO 0.5M3/HR",
+    "unit_price": 767000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01C",
+    "description": "DAYLIFF RO 0.5M3/HR ECONOMY TDS1000",
+    "unit_price": 635000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000063",
+    "description": "DAYLIFF RO 0.5M3/HR ECONOMY | TDS 1000 | Add Option - Solar",
+    "unit_price": 1560000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/T",
+    "description": "DAYLIFF RO 0.5M3/HR TDS2000",
+    "unit_price": 1552000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000062",
+    "description": "DAYLIFF RO 0.5M3/HR TDS3000 | DUPLEX | PERMEATE FLUSH",
+    "unit_price": 1950000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-M/0.5",
+    "description": "DAYLIFF RO 0.5M3/HR TDS5000",
+    "unit_price": 2470000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000085",
+    "description": "DAYLIFF RO 0.5M3/HR TDS5000 | SOLAR RO",
+    "unit_price": 2650000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000052",
+    "description": "DAYLIFF RO 0.5M3/HR TDS5000 | SOLAR RO | ORP METER",
+    "unit_price": 2760000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000056",
+    "description": "DAYLIFF RO 0.5M3/HR TDS5000 | SOLAR RO | ORP METER",
+    "unit_price": 2760000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000101",
+    "description": "DAYLIFF RO 0.5M3/HR TDS6000 | DIN1-30M HPP",
+    "unit_price": 2100000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000090",
+    "description": "DAYLIFF RO 1.0M3/HR TDS5000 | BATTERYLESS SOLAR RO",
+    "unit_price": 3080000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-03B",
+    "description": "DAYLIFF RO 1.5M3/HR ECONOMY TDS1000",
+    "unit_price": 1125000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-03/T",
+    "description": "DAYLIFF RO 1.5M3/HR TDS2000",
+    "unit_price": 2275000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-M/1.5",
+    "description": "DAYLIFF RO 1.5M3/HR TDS5000",
+    "unit_price": 3078000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000053",
+    "description": "DAYLIFF RO 10M3/HR TDS2000 | NMIST CONTAINER",
+    "unit_price": 5685000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000083",
+    "description": "DAYLIFF RO 10M3/HR | SOLARIZED |KAMPI YA SAMAKI",
+    "unit_price": 7260000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-24B",
+    "description": "DAYLIFF RO 12M3/HR ECONOMY TDS1000",
+    "unit_price": 2925000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000033",
+    "description": "DAYLIFF RO 12M3/HR ECONOMY TDS1000 | DIN20-10 HPP | DIN20-03 FP | PH ANALYZER",
+    "unit_price": 4000000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO8-03",
+    "description": "DAYLIFF RO 12M3/HR TDS2000",
+    "unit_price": 6672000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-M/12",
+    "description": "DAYLIFF RO 12M3/HR TDS5000",
+    "unit_price": 8887000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000076",
+    "description": "DAYLIFF RO 12M3/HR TDS5000 | BW30 PRO-400",
+    "unit_price": 7050000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000044",
+    "description": "DAYLIFF RO 15M3/HR TDS 6500 | SVH 32-160 45KW - BAMBURI CEMENT",
+    "unit_price": 10976000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-32B",
+    "description": "DAYLIFF RO 16M3/HR ECONOMY TDS1000",
+    "unit_price": 3550000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO8-04",
+    "description": "DAYLIFF RO 16M3/HR TDS2000",
+    "unit_price": 8101000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000072",
+    "description": "DAYLIFF RO 16M3/HR TDS2000 | ULP-8040HF",
+    "unit_price": 5435000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000058",
+    "description": "DAYLIFF RO 16M3/HR TDS2000 | ULP-8040HF MEMBRANES",
+    "unit_price": 5753000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-M/16",
+    "description": "DAYLIFF RO 16M3/HR TDS5000",
+    "unit_price": 10612000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SP DRO",
+    "description": "DAYLIFF RO 1M3 ECONOMY  C/W DIN03-29M  DESTAGED",
+    "unit_price": 5435000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000073",
+    "description": "DAYLIFF RO 1M3 ECONOMY  C/W DIN03-29M  DESTAGED",
+    "unit_price": 5435000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000031",
+    "description": "DAYLIFF RO 1M3/HR - TDS5000|DI-N05-36 HPP",
+    "unit_price": 2600000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-02C",
+    "description": "DAYLIFF RO 1M3/HR ECONOMY TDS1000",
+    "unit_price": 835000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000059",
+    "description": "DAYLIFF RO 1M3/HR ECONOMY TDS1000 | SOLAR RO",
+    "unit_price": 2050000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000065",
+    "description": "DAYLIFF RO 1M3/HR ECONOMY TDS1000 | SOLAR RO | 4X300PSI 4*1",
+    "unit_price": 1690000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000061",
+    "description": "DAYLIFF RO 1M3/HR ECONOMY | PERMEATE FLUSH",
+    "unit_price": 1360000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000081",
+    "description": "DAYLIFF RO 1M3/HR ECONOMY | SOLAR RO",
+    "unit_price": 1560000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000075",
+    "description": "DAYLIFF RO 1M3/HR TDS12000 | SW30-4040 | DIN05-36",
+    "unit_price": 3080000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000082",
+    "description": "DAYLIFF RO 1M3/HR TDS17000 | DID4-300 HPP | 8X2 Vessel",
+    "unit_price": 2720000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-02A/T",
+    "description": "DAYLIFF RO 1M3/HR TDS2000",
+    "unit_price": 1905000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-M/1.0",
+    "description": "DAYLIFF RO 1M3/HR TDS5000",
+    "unit_price": 2933000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000035",
+    "description": "DAYLIFF RO 1M3/HR TDS5000 C/W 1 8X2 PV",
+    "unit_price": 2300000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000029",
+    "description": "DAYLIFF RO 1M3/HR TDS5000 C/W SV3 & CVP 3-36",
+    "unit_price": 3080000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000048",
+    "description": "DAYLIFF RO 1M3/HR TDS5000 | 4X1 VESSELS | PIPING UPGRADE",
+    "unit_price": 1958000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000106",
+    "description": "DAYLIFF RO 1M3/HR TDS5000 | DIN03-29M",
+    "unit_price": 2250600,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000078",
+    "description": "DAYLIFF RO 1M3/HR TDS5000 | SOLAR RO",
+    "unit_price": 3000000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000099",
+    "description": "DAYLIFF RO 1M3/HR TDS7500 | DID03-360 HPP",
+    "unit_price": 2400000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000097",
+    "description": "DAYLIFF RO 1M3/HR TDS8000 | DID03-360\"",
+    "unit_price": 2480000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000092",
+    "description": "DAYLIFF RO 1M3/HR | TDS2000 SPECS | LC LE | ORP METER & ALARM",
+    "unit_price": 1400000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000095",
+    "description": "DAYLIFF RO 1M3/HR | TDS2000 SPECS | LC LE | ORP METER & ALARM",
+    "unit_price": 1400000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-04B",
+    "description": "DAYLIFF RO 2.0M3/HR ECONOMY TDS1000",
+    "unit_price": 1330000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000105",
+    "description": "DAYLIFF RO 2.0M3/HR ECONOMY TDS1000 C/W LC LE MEMBRANES",
+    "unit_price": 1177000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-04",
+    "description": "DAYLIFF RO 2.0M3/HR TDS2000",
+    "unit_price": 2600000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000098",
+    "description": "DAYLIFF RO 2.0M3/HR | PXD900 MANUAL | PERMEATE FLUSHING | LC LE PRO-4040",
+    "unit_price": 3060000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000054",
+    "description": "DAYLIFF RO 2.0M3/HR | SS PIPING | EABL",
+    "unit_price": 5435000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-05B",
+    "description": "DAYLIFF RO 2.5M3/HR ECONOMY TDS1000",
+    "unit_price": 1516000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000093",
+    "description": "DAYLIFF RO 2.5M3/HR TDS1000 | BATTERYLESS SOLAR RO",
+    "unit_price": 2035000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-05",
+    "description": "DAYLIFF RO 2.5M3/HR TDS2000",
+    "unit_price": 3045000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-M/2.5",
+    "description": "DAYLIFF RO 2.5M3/HR TDS5000",
+    "unit_price": 4590000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-40B",
+    "description": "DAYLIFF RO 20M3/HR ECONOMY TDS1000",
+    "unit_price": 4220000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO8-05",
+    "description": "DAYLIFF RO 20M3/HR TDS2000",
+    "unit_price": 9706000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000089",
+    "description": "DAYLIFF RO 20M3/HR TDS2000 | PLC | HMI | FEED TDS | iDAYLIFF",
+    "unit_price": 8590000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-M/20",
+    "description": "DAYLIFF RO 20M3/HR TDS5000",
+    "unit_price": 11890000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000049",
+    "description": "DAYLIFF RO 20M3/HR TDS5000 | MRO-8040HR | CHASE CONNECTION",
+    "unit_price": 10950000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000070",
+    "description": "DAYLIFF RO 2M3/HR ECONOMY TDS1000 | 2 MICRO FILTERS",
+    "unit_price": 1550000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000094",
+    "description": "DAYLIFF RO 2M3/HR ECONOMY | DIN03-19M HPP",
+    "unit_price": 980000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000019",
+    "description": "DAYLIFF RO 2M3/HR ECONOMY | ECO PRO MEMBRANE | SOLAR",
+    "unit_price": 2471175,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000096",
+    "description": "DAYLIFF RO 2M3/HR ECONOMY | LC LE",
+    "unit_price": 1200000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000102",
+    "description": "DAYLIFF RO 2M3/HR TDS | IDAYLIFF | PLC | 3NO. CD11P DOSERS",
+    "unit_price": 1870000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-M/02",
+    "description": "DAYLIFF RO 2M3/HR TDS5000",
+    "unit_price": 3432000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000051",
+    "description": "DAYLIFF RO 2M3/HR TDS5000 C/W DIN05-36 | IDAYLIFF",
+    "unit_price": 3220000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000086",
+    "description": "DAYLIFF RO 2M3/HR TDS5000 | DIN05-36 HPP",
+    "unit_price": 2800000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-03/1",
+    "description": "DAYLIFF RO 3 SS MANIFOLD",
+    "unit_price": 7000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-06B",
+    "description": "DAYLIFF RO 3M3/HR ECONOMY TDS1000",
+    "unit_price": 1530000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000020",
+    "description": "DAYLIFF RO 3M3/HR ECONOMY | ECO PRO MEMBRANE",
+    "unit_price": 2471175,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-06",
+    "description": "DAYLIFF RO 3M3/HR TDS2000",
+    "unit_price": 3065000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-M/03",
+    "description": "DAYLIFF RO 3M3/HR TDS5000",
+    "unit_price": 4752000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-08B",
+    "description": "DAYLIFF RO 4M3/HR ECONOMY TDS1000",
+    "unit_price": 1610000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000021",
+    "description": "DAYLIFF RO 4M3/HR ECONOMY | XLE440 MEMBRANE",
+    "unit_price": 2471175,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000040",
+    "description": "DAYLIFF RO 4M3/HR TDS 5000 | SVH 10-220 15KW - KINGSTON",
+    "unit_price": 5500000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-08",
+    "description": "DAYLIFF RO 4M3/HR TDS2000",
+    "unit_price": 3259000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-M/04",
+    "description": "DAYLIFF RO 4M3/HR TDS5000",
+    "unit_price": 4688000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-10B",
+    "description": "DAYLIFF RO 5M3/HR ECONOMY TDS1000",
+    "unit_price": 1716000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000069",
+    "description": "DAYLIFF RO 5M3/HR ECONOMY TDS1000 | 6xMRO-8040HF | IDAYLIFF",
+    "unit_price": 1716000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-10",
+    "description": "DAYLIFF RO 5M3/HR TDS2000",
+    "unit_price": 3411000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000074",
+    "description": "DAYLIFF RO 5M3/HR TDS2000 C/W 8 NO BW30 PRO-400 - BANK OF TZULP-8040HF",
+    "unit_price": 5435000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000032",
+    "description": "DAYLIFF RO 5M3/HR TDS2000 | DI-N 15-14 HPP",
+    "unit_price": 3200000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000050",
+    "description": "DAYLIFF RO 5M3/HR TDS2000 | DUPLEX CONCENTRATE",
+    "unit_price": 3950000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-M/05",
+    "description": "DAYLIFF RO 5M3/HR TDS5000",
+    "unit_price": 4743000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000104",
+    "description": "DAYLIFF RO 5M3/HR TDS5000 | 3NO. 8X2 6NO. MEMBRANES",
+    "unit_price": 3940000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000088",
+    "description": "DAYLIFF RO 5M3/HR TDS5000 | 6NO. BW30 PRO400 | DIX10-8",
+    "unit_price": 5435000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000103",
+    "description": "DAYLIFF RO 5M3/HR TDS5000 | SVH15-110 HPP | JOUD ZANZIBAR",
+    "unit_price": 5090000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000066",
+    "description": "DAYLIFF RO 5M3/HR | TDS7500 | SVH10-250 | MRO-8040HR",
+    "unit_price": 5460000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000079",
+    "description": "DAYLIFF RO 6M3/HR TDS10000 |DID15-250 | VFD PANEL | ELECTROMAG. F. METER  |MUHIDIN SOMALI",
+    "unit_price": 11100000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000080",
+    "description": "DAYLIFF RO 6M3/HR | ULP-8040HF | PLC | ECONOMY",
+    "unit_price": 3750000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000038",
+    "description": "DAYLIFF RO 7M3/HR TDS2000 | 4NO.8X2 VESSELS | SHOFCO - LAINI SABA & LINDI",
+    "unit_price": 4780600,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-16B",
+    "description": "DAYLIFF RO 8M3/HR ECONOMY TDS1000",
+    "unit_price": 2230000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000042",
+    "description": "DAYLIFF RO 8M3/HR TDS 11500 | SVH 15-180 22KW - JUMEIRA PALM",
+    "unit_price": 9600000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000084",
+    "description": "DAYLIFF RO 8M3/HR TDS16000 |DI-D15-180 22KW | SW30HRLE-400 | GRAND MARINA",
+    "unit_price": 8538200,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO8-02",
+    "description": "DAYLIFF RO 8M3/HR TDS2000",
+    "unit_price": 4885000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "6855",
+    "description": "DAYLIFF RO 8M3/HR TDS2000 C/W 8040-4 FRP VESSEL",
+    "unit_price": 4023000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000046",
+    "description": "DAYLIFF RO 8M3/HR TDS2000 C/W PLC/HMI / I-DAYLIFF - RAZCO LTD",
+    "unit_price": 4800000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000047",
+    "description": "DAYLIFF RO 8M3/HR TDS2000 C/W PLC/HMI / I-DAYLIFF - RAZCO LTD",
+    "unit_price": 4750000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000037",
+    "description": "DAYLIFF RO 8M3/HR TDS2000 | 5NO.8X2 VESSELS | KIBRA - SUBRA",
+    "unit_price": 5380000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-M/08",
+    "description": "DAYLIFF RO 8M3/HR TDS5000",
+    "unit_price": 6843000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000087",
+    "description": "DAYLIFF RO 8M3/HR TDS5000 | MRO-8040HF | DF6210",
+    "unit_price": 5435000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000071",
+    "description": "DAYLIFF RO 8M3/HR TDS6000 | SVH15-180 | 8xSW30HRLE-400 | 450PSI VESSELS",
+    "unit_price": 6750000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "WTD-PF5/2",
+    "description": "DAYLIFF RO MEMBRANE 100GPD",
+    "unit_price": 5700,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "WTD-PF5/2Y",
+    "description": "DAYLIFF RO MEMBRANE 100GPD",
+    "unit_price": 5700,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "WTD-PF5/2X",
+    "description": "DAYLIFF RO MEMBRANE 150GPD HIGH TDS<2000PPM",
+    "unit_price": 4000,
+    "unit_cost": 961,
+    "posting_group": "CAT04",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-04/1",
+    "description": "DAYLIFF RO S/STEEL MANIFOLD 4 DRO3/4",
+    "unit_price": 19310,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-03A/1",
+    "description": "DAYLIFF RO3-6 FRAME",
+    "unit_price": 0,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "ACTIVATED CARBON-03",
+    "description": "DAYLIFF ROTOCARB'S PRO CARBON 900 GAC 6*12 ACTIVATED CARBON 20KG BAG",
+    "unit_price": 24000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-02E",
+    "description": "DIAPHRAGM VALVE 1\"",
+    "unit_price": 12200,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-02D",
+    "description": "DIAPHRAGM VALVE 3/4\"",
+    "unit_price": 8900,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-11/2",
+    "description": "DOUBLE BAG FILTER 20MIC",
+    "unit_price": 4000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-11/1",
+    "description": "DOUBLE BAG FILTER 5MIC",
+    "unit_price": 4000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-8MBA",
+    "description": "DOW FILMTEC BW30 PRO-400 8\" RO MEMBRANE",
+    "unit_price": 208000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-4MBA",
+    "description": "DOW FILMTEC BW30 PRO-4040",
+    "unit_price": 81000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-4MBD",
+    "description": "DOW FILMTEC BW30-365 8\" RO MEMBRANE",
+    "unit_price": 5503,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-4MBC",
+    "description": "DOW FILMTEC LC LE PRO-4040",
+    "unit_price": 83000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-4MBB",
+    "description": "DOW FILMTEC SW30-4040 4\" RO MEMBRANE",
+    "unit_price": 133000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-4MBC1",
+    "description": "DOW FILMTEC SW30HRLE-400",
+    "unit_price": 265000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/7",
+    "description": "DRO 1 3/4 FEED MANIFOLD (3/4\" RECYLCE)",
+    "unit_price": 36400,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/1",
+    "description": "DRO 1 3/4\" DUPLEX MANIFOLDS",
+    "unit_price": 435000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/5",
+    "description": "DRO 1 SCH 316 MANIFOLDS",
+    "unit_price": 221000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/16",
+    "description": "DRO 2 3/4 FEED MANIFOLD (3/4\" RECYLCE)",
+    "unit_price": 34300,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/2",
+    "description": "DRO 2 3/4\" DUPLEX MANIFOLDS",
+    "unit_price": 500000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/6",
+    "description": "DRO 2 SCH 316 MANIFOLDS",
+    "unit_price": 249000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/17",
+    "description": "DRO 2.5\" FEED MANIFOLD",
+    "unit_price": 81000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/3",
+    "description": "DRO 8 1.5\" x 1.5\" 316L MANIFOLD (1.5\"LOOP)",
+    "unit_price": 462000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/19",
+    "description": "DRO 8 1.5\" x 1.5\" DUPLEX MANIFOLD 2 VESSEL",
+    "unit_price": 925000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/21",
+    "description": "DRO 8 1.5\" x 1.5\" PVC MANIFOLD 2 VESSELS",
+    "unit_price": 252000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/4",
+    "description": "DRO 8 2.5\" x 1.5\" 316L MANIFOLD (1.5\"LOOP)",
+    "unit_price": 532000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/20",
+    "description": "DRO 8 2.5\" x 1.5\" DUPLEX MANIFOLD 3 VESSELS",
+    "unit_price": 950000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/22",
+    "description": "DRO 8 2.5\" x 1.5\" PVC MANIFOLD 3 VESSELS",
+    "unit_price": 278000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/8",
+    "description": "DRO FEED MANIFOLD 1.5\" (1.5\"RECYLCE)",
+    "unit_price": 40500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/14",
+    "description": "DRO PERMEATE FLUSH SYSTEM 1.5\"",
+    "unit_price": 401000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/11",
+    "description": "DRO PERMEATE MANIFOLD 1.5\"",
+    "unit_price": 18300,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/12",
+    "description": "DRO PERMEATE MANIFOLD 1.5\"",
+    "unit_price": 26300,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/15",
+    "description": "DRO PERMEATE MANIFOLD 2.5\"",
+    "unit_price": 48400,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DROM0.25SS/1",
+    "description": "DRO-M 0.25 SS FRAME",
+    "unit_price": 62000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DROM3-6SS/2",
+    "description": "DRO-M 3-6 SS FRAME",
+    "unit_price": 110000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO0.25 SS",
+    "description": "DRO0.25 SS FRAME",
+    "unit_price": 63000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO1-2SS/1",
+    "description": "DRO1&2 SSFRAME",
+    "unit_price": 120000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO3-6SS/1",
+    "description": "DRO3-6 SSFRAME",
+    "unit_price": 113000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO6-10SS",
+    "description": "DRO6-10 SS FRAME",
+    "unit_price": 187000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-4PV4A/3",
+    "description": "END CAP 4\" 40L30",
+    "unit_price": 30000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-8PV4A/3",
+    "description": "END CAP 8\"",
+    "unit_price": 48000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-01F",
+    "description": "FLOWMETER LZS-15 60-600L/HR",
+    "unit_price": 12800,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-01L",
+    "description": "FLOWMETER LZS-25 160-1600L/HR",
+    "unit_price": 12800,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-01G",
+    "description": "FLOWMETER LZS-25 250-2500L/HR",
+    "unit_price": 13600,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-01H",
+    "description": "FLOWMETER LZS-32 0.4-4M3/HR",
+    "unit_price": 17000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-01J",
+    "description": "FLOWMETER LZS-32 0.6-6M3/HR",
+    "unit_price": 17000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-01K",
+    "description": "FLOWMETER LZS-50 1.6-16M3/HR",
+    "unit_price": 19500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-01M",
+    "description": "FLOWMETER LZS-65 5-25M3/HR",
+    "unit_price": 33600,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-01N",
+    "description": "FLOWMETER LZS-65 8-40M3/HR",
+    "unit_price": 42800,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/9",
+    "description": "GAUGE ASSEMBLY MANIFOLD 3/4\"",
+    "unit_price": 95000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/10",
+    "description": "GAUGE MANIFOLD ASSEMBLY 1.5\"",
+    "unit_price": 118000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/18",
+    "description": "GAUGE MANIFOLD ASSEMBLY 2.5\"",
+    "unit_price": 188000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "GEN-LF",
+    "description": "GENESYS LF ANTISCALANT BROAD SPECTRUM -25KGS",
+    "unit_price": 32000,
+    "unit_cost": 13932,
+    "posting_group": "CAT18",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000027",
+    "description": "GRAPHICAL PLC DAYLIFF RO 16M3/HR C/W IDAYLIFF",
+    "unit_price": 6960000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-4PV4A/4",
+    "description": "HEAD SEAL O-RING 40E30N",
+    "unit_price": 360,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-8PV4A/4",
+    "description": "HEAD SEAL O-RING 8\"",
+    "unit_price": 200,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-8MBA/1",
+    "description": "MEMBRANE INTERCONNECTOR 8\" C/W ORING",
+    "unit_price": 2000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-10A",
+    "description": "MICRO FILTER 10\" UPVC",
+    "unit_price": 43500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-10B",
+    "description": "MICRO FILTER 20\" UPVC",
+    "unit_price": 54000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-10C",
+    "description": "MICRO FILTER 30\" UPVC",
+    "unit_price": 67000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "MP4",
+    "description": "MODPRO REVERSE OSMOSIS MEMBRANE",
+    "unit_price": 40000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-01E",
+    "description": "PANEL MOUNT FLOWMETER 10-130LPM",
+    "unit_price": 930,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/23",
+    "description": "PERMEATE FLUSH SYSTEM 2.5\" T1000",
+    "unit_price": 560000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-01A/13",
+    "description": "PERMEATE FLUSH SYSTEM MANIFOLD 1\"",
+    "unit_price": 230000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-05A",
+    "description": "PRESSURE GAUGE 0-10BAR PANEL MOUNT",
+    "unit_price": 2700,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-05B",
+    "description": "PRESSURE GAUGE 0-25BAR PANEL MOUNT",
+    "unit_price": 2600,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-04/10",
+    "description": "PROBE SSRC",
+    "unit_price": 2450,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "WTD-PF5/6",
+    "description": "PUMP ADAPTER DAYLIFF RO 100G",
+    "unit_price": 2700,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "WTD-PF5/6Y",
+    "description": "PUMP ADAPTER DAYLIFF RO 100G",
+    "unit_price": 2700,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-11",
+    "description": "PVC BAG FILTER",
+    "unit_price": 245000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-4PV4A/5",
+    "description": "RETAINER RING 40E30N",
+    "unit_price": 1820,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "LABTEST-02",
+    "description": "REVERSE OSMOSIS PERFORMANCE TEST",
+    "unit_price": 5800,
+    "unit_cost": 3000,
+    "posting_group": "CAT18",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO4-1/7",
+    "description": "RO FRAME GALVANIZED",
+    "unit_price": 1640,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-8PV4A/1",
+    "description": "SADDLE 8\"",
+    "unit_price": 3000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-04",
+    "description": "SINGLE STAGE RO CONTROLLER 0-2000\u00b5S/cm",
+    "unit_price": 51000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-03C1",
+    "description": "SOLENOID VALVE S/S 316 1 1/4\" AC 220V",
+    "unit_price": 33700,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-03B1",
+    "description": "SOLENOID VALVE S/S 316 1.5\" AC 220V",
+    "unit_price": 30300,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-03E1",
+    "description": "SOLENOID VALVE S/S 316 2\"  AC 220V",
+    "unit_price": 51000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-03A1",
+    "description": "SOLENOID VALVE S/S 316 3/4\" AC 220V",
+    "unit_price": 14600,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "SPDRO-000017",
+    "description": "SPDRO-000017 \u2219 DAYLIFF RO 10M3/HR TDS2000 C/W SS PIPING",
+    "unit_price": 5773452,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-4PV4A/2",
+    "description": "STRAP 4\" 40L30",
+    "unit_price": 4300,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "DRO-8PV4A/2",
+    "description": "STRAP 8\"",
+    "unit_price": 4200,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "ro_plant"
+  },
+  {
+    "item_no": "AF-PF5B",
+    "description": "ATLAS JUPITER AVL30 SOFTENER",
+    "unit_price": 196000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "AF-PF5BX",
+    "description": "ATLAS JUPITER AVL30 SOFTENER C/W RESIN + POOL SALT",
+    "unit_price": 205000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "AF-PF5C",
+    "description": "ATLAS JUPITER AVL70 SOFTENER",
+    "unit_price": 316000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "AF-PF5CX",
+    "description": "ATLAS JUPITER AVL70 SOFTENER C/W RESIN + POOL SALT",
+    "unit_price": 470000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "SF300",
+    "description": "DAYLIFF SF 300 SOFTENER",
+    "unit_price": 316000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "SF600",
+    "description": "DAYLIFF SF 600 SOFTENER",
+    "unit_price": 850000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "SF600T",
+    "description": "DAYLIFF SF 600 SOFTENER",
+    "unit_price": 515000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "SF900",
+    "description": "DAYLIFF SF 900 SOFTENER",
+    "unit_price": 1762000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "SF200H",
+    "description": "DAYLIFF SF200 HIGH PRESSURE SOFTENER",
+    "unit_price": 196000,
+    "unit_cost": 70891,
+    "posting_group": "CAT12",
+    "family": "softener"
+  },
+  {
+    "item_no": "SF240H",
+    "description": "DAYLIFF SF240 HIGH PRESSURE SOFTENER",
+    "unit_price": 210000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "SPSF-000007",
+    "description": "DAYLIFF SF240 HIGH PRESSURE SOFTENER | RXSV-10",
+    "unit_price": 175000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "SF400H",
+    "description": "DAYLIFF SF400 HIGH PRESSURE SOFTENER",
+    "unit_price": 370000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "SF500H",
+    "description": "DAYLIFF SF500 HIGH PRESSURE SOFTENER",
+    "unit_price": 623000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "SF900H",
+    "description": "DAYLIFF SF900 HIGH PRESSURE SOFTENER",
+    "unit_price": 1630000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "RXSV-10",
+    "description": "DAYLIFF SOFTENER VALVE 10M3  2''",
+    "unit_price": 118000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "RXSV-17",
+    "description": "DAYLIFF SOFTENER VALVE 17M3  2'' SIDE MOUNT",
+    "unit_price": 236000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "RXSV-05",
+    "description": "DAYLIFF SOFTENER VALVE 2-5M3  1''",
+    "unit_price": 63000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "WS-PF2",
+    "description": "SO-SAFE 200LPM WATER SOFTENER",
+    "unit_price": 18866,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "24453",
+    "description": "SOFTENER FLOAT VALVE CD1600 C/W 0.9M PIPE",
+    "unit_price": 369.5,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "24454",
+    "description": "SOFTENER FLOAT VALVE CD1700 W/O PIPE",
+    "unit_price": 691.67,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "softener"
+  },
+  {
+    "item_no": "LABTEST-04",
+    "description": "WATER SOFTENER PERFOMANCE TEST",
+    "unit_price": 5200,
+    "unit_cost": 2900,
+    "posting_group": "CAT18",
+    "family": "softener"
+  },
+  {
+    "item_no": "T100",
+    "description": "100 LIT CHEMICAL TANK",
+    "unit_price": 42200,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "storage"
+  },
+  {
+    "item_no": "T1000",
+    "description": "1000 LIT CHEMICAL TANK",
+    "unit_price": 217000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "storage"
+  },
+  {
+    "item_no": "T170",
+    "description": "170 LIT CHEMICAL TANK",
+    "unit_price": 64000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "storage"
+  },
+  {
+    "item_no": "T400",
+    "description": "400 LIT CHEMICAL TANK",
+    "unit_price": 125000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "storage"
+  },
+  {
+    "item_no": "T050",
+    "description": "60 LIT CHEMICAL TANK",
+    "unit_price": 21800,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "storage"
+  },
+  {
+    "item_no": "T600",
+    "description": "600 LIT CHEMICAL TANK",
+    "unit_price": 133000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "storage"
+  },
+  {
+    "item_no": "T1000EM",
+    "description": "DAYLIFF 1000L TANK C/W 200RPM ELECTRIC MIXER",
+    "unit_price": 388000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "storage"
+  },
+  {
+    "item_no": "T1000MM",
+    "description": "DAYLIFF 1000L TANK C/W MANUAL MIXER",
+    "unit_price": 212000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "storage"
+  },
+  {
+    "item_no": "SPDUF-000023",
+    "description": "DAYLIFF 10M3/HR ULTRAFILTRATION UNIT | IUF-77 MODULES",
+    "unit_price": 3230000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "SPDUF-000027",
+    "description": "DAYLIFF 12M3/HR ULTRAFILTRATION UNIT | IUF-77",
+    "unit_price": 4000000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "SPDUF-000031",
+    "description": "DAYLIFF 2M3/HR ULTRAFILTRATION UNIT | IUF-51",
+    "unit_price": 1702500,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "4DUF2",
+    "description": "DAYLIFF 4DUF2 0.5M3/HR ULTRAFILTRATION UNIT",
+    "unit_price": 1775000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "4DUF4",
+    "description": "DAYLIFF 4DUF4 1M3/HR ULTRAFILTRATION UNIT",
+    "unit_price": 2315000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "SPDUF-000011",
+    "description": "DAYLIFF 4M3/HR ULTRAFILTRATION UNIT | 2XIP-51| iDAYLIFF IoT FOR DUF",
+    "unit_price": 4119000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "SPDUF-000030",
+    "description": "DAYLIFF 4M3/HR ULTRAFILTRATION UNIT | BATTERYLESS SOLAR UF",
+    "unit_price": 2450000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "SPDUF-000014",
+    "description": "DAYLIFF 4M3/HR ULTRAFILTRATION UNIT | IUF-77",
+    "unit_price": 2950000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "SPDUF-000017",
+    "description": "DAYLIFF 4M3/HR ULTRAFILTRATION UNIT | IUF-77",
+    "unit_price": 2590000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "DUF2A",
+    "description": "DAYLIFF 6M3/HR ULTRAFILTRATION UNIT",
+    "unit_price": 4715000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "SPDUF-000020",
+    "description": "DAYLIFF 6M3/HR ULTRAFILTRATION UNIT CW 2NO. IUF-51",
+    "unit_price": 3230000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "SPDUF-000010",
+    "description": "DAYLIFF 6M3/HR ULTRAFILTRATION UNIT | 2XIUF-77 - ETHIOPIA",
+    "unit_price": 3500000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "SPDUF-000016",
+    "description": "DAYLIFF 6M3/HR ULTRAFILTRATION UNIT | IUF | iDAYLIFF | ADD OPTION - DM",
+    "unit_price": 2840000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "DUF1",
+    "description": "DAYLIFF 8DUF1 2M3/HR ULTRAFILTRATION UNIT",
+    "unit_price": 3130000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "SPDUF-000004",
+    "description": "DAYLIFF 8DUF1 2M3/HR ULTRAFILTRATION UNIT C/W TP900 SIMATIC HMI",
+    "unit_price": 2270000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "SPDUF-000007",
+    "description": "DAYLIFF 8DUF1 2M3/HR ULTRAFILTRATION UNIT W/O MEMBRANE",
+    "unit_price": 1640000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "SPDUF-000013",
+    "description": "DAYLIFF 8DUF1 4M3/HR ULTRAFILTRATION UNIT C/W 2NO IP-51",
+    "unit_price": 3878000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "DUF2",
+    "description": "DAYLIFF 8DUF2 4M3/HR ULTRAFILTRATION UNIT",
+    "unit_price": 3600000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "DUF250D",
+    "description": "DAYLIFF 8DUF250D 25M3/HR ULTRAFILTRATION UNIT",
+    "unit_price": 11000000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "SPDUF-000024",
+    "description": "DAYLIFF 8DUF250D 25M3/HR ULTRAFILTRATION UNIT | DDE06-10 | D1900-16",
+    "unit_price": 9470000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "DUF3",
+    "description": "DAYLIFF 8DUF3 10M3/HR ULTRAFILTRATION UNIT",
+    "unit_price": 5440000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "DUF300D",
+    "description": "DAYLIFF 8DUF300D 30M3/HR ULTRAFILTRATION UNIT",
+    "unit_price": 12600000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "DUF4",
+    "description": "DAYLIFF 8DUF4 12M3/HR ULTRAFILTRATION UNIT",
+    "unit_price": 7120000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "DUF5",
+    "description": "DAYLIFF 8DUF5 16M3/HR ULTRAFILTRATION UNIT",
+    "unit_price": 7200000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "DUF6",
+    "description": "DAYLIFF 8DUF6 20M3/HR ULTRAFILTRATION UNIT",
+    "unit_price": 8885000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "EDUF01",
+    "description": "DAYLIFF BUF4 0.35M3/HR ULTRAFILTRATION UNIT",
+    "unit_price": 206000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "EDUF02",
+    "description": "DAYLIFF BUF4 0.7M3/HR ULTRAFILTRATION UNIT",
+    "unit_price": 255000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "EDUF04",
+    "description": "DAYLIFF BUF4 1.4M3/HR ULTRAFILTRATION UNIT",
+    "unit_price": 372000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "EDUF03",
+    "description": "DAYLIFF BUF4 1M3/HR ULTRAFILTRATION UNIT",
+    "unit_price": 289000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "SPDUF-000008",
+    "description": "DAYLIFF DUF3 10M3/HR ULTRAFILTRATION UNIT | 3No. IP-51XP | CENTRAL PLUMBING",
+    "unit_price": 4500000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "PWUF01",
+    "description": "DAYLIFF PWUF 1M3/HR AUTOMATIC ULTRAFILTRATION UNIT",
+    "unit_price": 206000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "EWUF01",
+    "description": "DAYLIFF PWUF 1M3/HR MANUAL ULTRAFILTRATION UNIT",
+    "unit_price": 120000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "PWUF02",
+    "description": "DAYLIFF PWUF 2M3/HR AUTOMATIC ULTRAFILTRATION UNIT",
+    "unit_price": 264000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "EWUF02",
+    "description": "DAYLIFF PWUF 2M3/HR MANUAL ULTRAFILTRATION UNIT",
+    "unit_price": 175000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "PWUF03",
+    "description": "DAYLIFF PWUF 3M3/HR AUTOMATIC ULTRAFILTRATION UNIT",
+    "unit_price": 320000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "EWUF03",
+    "description": "DAYLIFF PWUF 3M3/HR MANUAL ULTRAFILTRATION UNIT",
+    "unit_price": 230000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "SPKIT-000019",
+    "description": "DAYLIFF UF WASHABLE MEMBRANE TEST ASSEMBLY",
+    "unit_price": 70800,
+    "unit_cost": 30442,
+    "posting_group": "CAT04",
+    "family": "uf"
+  },
+  {
+    "item_no": "SPDUF-000029",
+    "description": "DAYLIFF WUF 2M3/HR ULTRAFILTRATION UNIT | AUTO | NO SP MODULES",
+    "unit_price": 150000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  },
+  {
+    "item_no": "WUF8002",
+    "description": "DAYLIFF WUF ULTRAFILTRATION WATER TREATMENT MODULE - S/S",
+    "unit_price": 80000,
+    "unit_cost": null,
+    "posting_group": "",
+    "family": "uf"
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "customer_no": "C-DRC-44190",
+    "account_id": "acc-pharmakina",
+    "salesperson_code": "MAK",
+    "engineer": "Monica Akinyi",
+    "installed_base": [
+      {
+        "site": "Bukavu PW plant — existing 2 m³/h skid (2019)",
+        "item_no": "DRO-2",
+        "description": "Dayliff packaged RO 2 m³/h",
+        "family": "ro_plant",
+        "commissioned": "2019-06-12",
+        "warranty_end": "2021-06-12",
+        "status": "in_service"
+      },
+      {
+        "site": "Bukavu PW plant",
+        "item_no": "PXD-20",
+        "description": "PXD multimedia pretreatment",
+        "family": "pretreatment",
+        "commissioned": "2019-06-12",
+        "status": "in_service"
+      }
+    ],
+    "invoices": [
+      {
+        "no": "PSI-19-4412",
+        "date": "2019-07-02",
+        "amount": 18640000,
+        "currency": "KES",
+        "status": "paid",
+        "lines": ["DRO-2", "PXD-20", "commissioning"]
+      },
+      {
+        "no": "PSI-22-1188",
+        "date": "2022-03-18",
+        "amount": 940000,
+        "currency": "KES",
+        "status": "paid",
+        "lines": ["membrane set", "GEN-LF antiscalant"]
+      },
+      {
+        "no": "PSI-25-3301",
+        "date": "2025-11-04",
+        "amount": 412000,
+        "currency": "KES",
+        "status": "open",
+        "due": "2026-01-04",
+        "lines": ["antiscalant", "cartridge filters"]
+      }
+    ],
+    "quotes": [
+      {
+        "no": "SQ-26-1174796",
+        "date": "2026-09-10",
+        "amount": null,
+        "status": "open",
+        "note": "Freshdesk PW 5 m³/h Ph. Eur. — awaiting lab + sizing"
+      }
+    ],
+    "balance": 412000,
+    "credit_limit": 15000000,
+    "price_group": "LARGE TRADER"
+  },
+  {
+    "customer_no": "C-KE-11820",
+    "account_id": "acc-nairobi-hotel",
+    "salesperson_code": "NBO",
+    "engineer": "Daniel Kariuki",
+    "installed_base": [
+      {
+        "site": "Ridgeview Ngong Road borehole",
+        "item_no": "DSD-sub",
+        "description": "Dayliff borehole pump + control",
+        "family": "pumps",
+        "commissioned": "2021-02-01",
+        "status": "in_service"
+      },
+      {
+        "site": "Ridgeview roof tanks",
+        "item_no": "CH-02",
+        "description": "Chlorine dosing point",
+        "family": "disinfection",
+        "commissioned": "2021-02-01",
+        "status": "in_service"
+      }
+    ],
+    "invoices": [
+      {
+        "no": "PSI-21-9021",
+        "date": "2021-02-20",
+        "amount": 2480000,
+        "currency": "KES",
+        "status": "paid",
+        "lines": ["borehole pump", "dosing"]
+      },
+      {
+        "no": "PSI-24-4410",
+        "date": "2024-08-09",
+        "amount": 86000,
+        "currency": "KES",
+        "status": "paid",
+        "lines": ["chlorine 65"]
+      }
+    ],
+    "quotes": [],
+    "balance": 0,
+    "credit_limit": 5000000,
+    "price_group": "RETAIL"
+  },
+  {
+    "customer_no": "C-KE-33011",
+    "account_id": "acc-nakuru-utility",
+    "salesperson_code": "NKU",
+    "engineer": "Jane Chebet",
+    "installed_base": [
+      {
+        "site": "Nakuru works package plant 1",
+        "item_no": "DRO-20",
+        "description": "Dayliff package treatment 20 m³/h",
+        "family": "ro_plant",
+        "commissioned": "2018-11-01",
+        "status": "ageing"
+      }
+    ],
+    "invoices": [
+      {
+        "no": "PSI-18-220",
+        "date": "2018-12-15",
+        "amount": 41200000,
+        "currency": "KES",
+        "status": "paid",
+        "lines": ["package plant"]
+      },
+      {
+        "no": "PSI-26-019",
+        "date": "2026-02-11",
+        "amount": 1280000,
+        "currency": "KES",
+        "status": "open",
+        "due": "2026-04-11",
+        "lines": ["spares kit"]
+      }
+    ],
+    "quotes": [
+      {
+        "no": "SQ-26-088",
+        "date": "2026-07-02",
+        "status": "open",
+        "note": "NRW / second package train — no lab yet"
+      }
+    ],
+    "balance": 1280000,
+    "credit_limit": 80000000,
+    "price_group": "GOVERNMENT"
+  },
+  {
+    "customer_no": "C-KE-20998",
+    "account_id": "acc-naivasha-farm",
+    "salesperson_code": "NVS",
+    "engineer": "Peter Mwangi",
+    "installed_base": [
+      {
+        "site": "Lakeview drip block A",
+        "item_no": "PXD-iron",
+        "description": "Iron removal filter",
+        "family": "pretreatment",
+        "commissioned": "2023-04-20",
+        "status": "in_service"
+      }
+    ],
+    "invoices": [
+      {
+        "no": "PSI-23-771",
+        "date": "2023-05-04",
+        "amount": 1650000,
+        "currency": "KES",
+        "status": "paid",
+        "lines": ["iron filter", "media"]
+      }
+    ],
+    "quotes": [],
+    "balance": 0,
+    "credit_limit": 4000000,
+    "price_group": "AGRI"
+  },
+  {
+    "customer_no": "C-UG-77401",
+    "account_id": "acc-kampala-hospital",
+    "salesperson_code": "EBB",
+    "engineer": "Dr. Amina Nansubuga",
+    "installed_base": [
+      {
+        "site": "Hillcrest CSSD",
+        "item_no": "UV-55",
+        "description": "Dayliff UV disinfection",
+        "family": "disinfection",
+        "commissioned": "2024-01-15",
+        "status": "in_service"
+      }
+    ],
+    "invoices": [
+      {
+        "no": "PSI-24-102",
+        "date": "2024-01-28",
+        "amount": 980000,
+        "currency": "KES",
+        "status": "paid",
+        "lines": ["UV-55"]
+      }
+    ],
+    "quotes": [],
+    "balance": 0,
+    "credit_limit": 8000000,
+    "price_group": "INSTITUTION"
+  },
+  {
+    "customer_no": "C-ZM-55102",
+    "account_id": "acc-kitwe-mine",
+    "salesperson_code": "KIT",
+    "engineer": "Chanda Mwila",
+    "installed_base": [
+      {
+        "site": "Concentrator process water",
+        "item_no": "BRO-10",
+        "description": "Brackish RO 10 m³/h",
+        "family": "ro_plant",
+        "commissioned": "2020-09-01",
+        "status": "in_service"
+      }
+    ],
+    "invoices": [
+      {
+        "no": "PSI-20-440",
+        "date": "2020-09-20",
+        "amount": 22800000,
+        "currency": "KES",
+        "status": "paid",
+        "lines": ["BRO-10"]
+      },
+      {
+        "no": "PSI-25-901",
+        "date": "2025-12-02",
+        "amount": 2100000,
+        "currency": "KES",
+        "status": "paid",
+        "lines": ["membrane replacement"]
+      }
+    ],
+    "quotes": [],
+    "balance": 0,
+    "credit_limit": 25000000,
+    "price_group": "INDUSTRIAL"
+  },
+  {
+    "customer_no": "C-KE-88210",
+    "account_id": "acc-mombasa-bottler",
+    "salesperson_code": "MBA",
+    "engineer": "Fatma Ali",
+    "installed_base": [],
+    "invoices": [],
+    "quotes": [
+      {
+        "no": "SQ-26-441",
+        "date": "2026-08-22",
+        "status": "open",
+        "note": "Bottled water RO + remineralization — lab pending"
+      }
+    ],
+    "balance": 0,
+    "credit_limit": 6000000,
+    "price_group": "LARGE TRADER"
+  }
+]

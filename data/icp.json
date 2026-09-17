@@ -1,0 +1,85 @@
+{
+  "company": "Davis & Shirtliff",
+  "regions": ["Kenya", "Uganda", "Tanzania", "Rwanda", "Burundi", "Zambia", "Malawi", "DRC", "Ethiopia", "South Sudan"],
+  "segments": [
+    {
+      "id": "municipal",
+      "label": "Municipal / utility",
+      "titles": ["Managing Director", "Water Engineer", "County Director Water", "Plant Manager"],
+      "pains": ["non-revenue water", "ageing treatment works", "power reliability", "spare parts lead time"]
+    },
+    {
+      "id": "industrial",
+      "label": "Industrial process water",
+      "titles": ["Plant Manager", "Utilities Manager", "EHS Manager", "Chief Engineer"],
+      "pains": ["process water quality", "downtime", "energy cost of pumping", "effluent compliance"]
+    },
+    {
+      "id": "pharma",
+      "label": "Pharmaceutical / Purified Water",
+      "titles": ["Engineering Manager", "QA Manager", "Validation Lead", "Head of Operations"],
+      "pains": ["Ph. Eur. PW conductivity", "sanitization", "qualification dossier", "automation / historization"]
+    },
+    {
+      "id": "hospitality",
+      "label": "Hospitality & commercial buildings",
+      "titles": ["Facilities Manager", "Chief Engineer", "GM"],
+      "pains": ["guest water quality", "borehole TDS", "storage hygiene", "diesel vs solar pumping"]
+    },
+    {
+      "id": "agri",
+      "label": "Agribusiness / floriculture / irrigation",
+      "titles": ["Farm Manager", "Irrigation Engineer", "Operations Director"],
+      "pains": ["irrigation water quality", "iron/manganese staining", "energy for pumping", "seasonal flow"]
+    },
+    {
+      "id": "health",
+      "label": "Hospitals & institutions",
+      "titles": ["Biomedical Engineer", "Estate Manager", "Procurement"],
+      "pains": ["dialysis / CSSD water", "infection control", "uptime SLAs"]
+    }
+  ],
+  "value_pillars": [
+    "Local Dayliff equipment + East Africa service network",
+    "AI product sizing from lab reports (sizing.dayliff.com)",
+    "Business Central quotes with real ERP items and costs",
+    "Commissioning, spares, and after-sales in-country"
+  ],
+  "use_case_patterns": [
+    {
+      "id": "borehole_ro",
+      "name": "Borehole RO for potable / process water",
+      "signals": ["borehole", "high TDS", "brackish", "saline", "conductivity"],
+      "lead_family": "ro_plant",
+      "angle": "Package RO sized to lab TDS and required m³/hr, with pretreatment so membranes last."
+    },
+    {
+      "id": "pharma_pw",
+      "name": "Pharmaceutical Purified Water (Ph. Eur.)",
+      "signals": ["pharma", "purified water", "pharmacopoeia", "endotoxin", "IQ/OQ", "PLC"],
+      "lead_family": "ro_plant",
+      "angle": "PW train with documented RO, sanitization path, and automation — not a generic potable skid."
+    },
+    {
+      "id": "media_iron",
+      "name": "Iron / turbidity pretreatment",
+      "signals": ["iron", "manganese", "turbidity", "colour", "staining"],
+      "lead_family": "pretreatment",
+      "angle": "PXD / glass media pretreatment before RO so SDI and iron stay in envelope."
+    },
+    {
+      "id": "solar_pumping",
+      "name": "Solar water pumping + treatment",
+      "signals": ["off-grid", "diesel", "solar", "rural", "farm"],
+      "lead_family": "pumps",
+      "angle": "Cut diesel on pumping, then treat to use-case (irrigation vs potable)."
+    },
+    {
+      "id": "hospital_disinfection",
+      "name": "Institutional disinfection & storage",
+      "signals": ["hospital", "hotel", "school", "legionella", "chlorine", "UV"],
+      "lead_family": "disinfection",
+      "angle": "Hygienic storage plus UV/chlorine residual with Dayliff dosing."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "approved": [
+    "Davis & Shirtliff supplies Dayliff water treatment, pumping, and solar equipment across East Africa, with local stock, service, and commissioning.",
+    "AI Product Sizing (sizing.dayliff.com) turns a lab analysis into treatment options, a Business Central quote, and a proposal for engineer review.",
+    "Packaged Dayliff RO plants are selected from catalogue families (DRO / BRO) against feed TDS and required permeate flow.",
+    "Pretreatment (PXD filters, Certikin glass media, antiscalant) is quoted so RO feed meets turbidity / SDI / chlorine limits.",
+    "We can include FAT/SAT/IQ/OQ documentation and PLC/HMI when the enquiry specifies qualification — confirm scope in the offer.",
+    "Cylindrical storage tanks on D&S proposals are listed for completeness; commercial policy is to quote them at zero selling price."
+  ],
+  "forbidden": [
+    "Do not invent a price, discount, or delivery date.",
+    "Do not claim WHO/Ph. Eur. certification of a skid unless it is in the approved claims list.",
+    "Do not promise a specific membrane recovery or permeate conductivity without a lab report + sizing run.",
+    "Do not say we are HubSpot/Salesforce partners or a SaaS CRM vendor.",
+    "Do not auto-send email or LinkedIn. Drafts only until a human approves."
+  ]
+}
